@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/waterfall"
+    tools:context=".AlarmClock.AlarmToast">
+
+    <!--    <AnalogClock-->
+    <!--        android:id="@+id/analog_clock"-->
+    <!--        android:layout_width="700dp"-->
+    <!--        android:layout_height="700dp"-->
+    <!--        android:layout_marginTop="13sp"-->
+    <!--        android:layout_centerHorizontal="true"></AnalogClock>-->
+
+    <!--    <DigitalClock-->
+    <!--        android:id="@+id/digital_clock"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/analog_clock"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:textSize="17pt"-->
+    <!--        android:textColor="#5ff"></DigitalClock>-->
+
+    <AnalogClock
+        android:id="@+id/analog_clock"
+        android:layout_width="290dp"
+        android:layout_height="290dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:dial="@drawable/dial_pad"
+        android:hand_hour="@drawable/hour_ptr"
+        android:hand_minute="@drawable/minut_ptr"></AnalogClock>
+
+    <TextClock
+        android:id="@+id/text_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:format24Hour="HH:mm:ss"
+        android:textColor="#ff0000"
+        android:textSize="17pt"></TextClock>
+
+    <TextView
+        android:id="@+id/alarm_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="485dp"
+        android:text="时间行如流水"
+        android:textColor="#f8adad"
+        android:textSize="15pt"></TextView>
+
+    <TextView
+        android:id="@+id/alarm_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:text="莫等闲"
+        android:textColor="#f8adad"
+        android:textSize="15pt"></TextView>
+
+</RelativeLayout>

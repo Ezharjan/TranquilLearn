@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item
+        android:id="@+id/to_sound_meter"
+        android:icon="@mipmap/sound_meter"
+        android:title="噪声检测"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/to_surfer"
+        android:icon="@mipmap/net"
+        android:title="上网搜索"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/my_note_pad"
+        android:title="便签记录"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/to_long_seat_reminder"
+        android:icon="@mipmap/long_seat_reminder"
+        android:title="久坐提醒"
+        app:showAsAction="ifRoom"></item>
+
+    <item
+        android:id="@+id/to_alarm_clock"
+        android:icon="@mipmap/alarmer"
+        android:title="设置闹钟"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/to_about"
+        android:icon="@mipmap/about"
+        android:title="软件信息"
+        app:showAsAction="never"></item>
+
+</menu>
