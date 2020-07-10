@@ -48,7 +48,6 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 
-//public class MainActivity extends AppComponentFactory  implements  SensorEventListener{
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
 
     AlertDialog alert;
